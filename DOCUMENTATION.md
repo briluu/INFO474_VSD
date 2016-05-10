@@ -33,10 +33,10 @@ d3.json([dataset],function (error, root) { // Dataset should be hierarchical
 <br />**Default: `2`**
 
 
-\# *BubbleChart*.**color**(d3.scale.color_scale) 
+\# *BubbleChart*.**color**(D3_categorical_colors) 
 > Sets the value of color scale of the bubbles.
 > If the scale is not specified, return the current array.
-> The value must be a d3 color scale function.
+> Check [here](https://github.com/mbostock/d3/wiki/Ordinal-Scales#categorical-colors) for the D3 categorical colors.
 <br />**Default: `d3.scale.category20()`**
 
 
