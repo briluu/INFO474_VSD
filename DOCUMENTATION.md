@@ -1,6 +1,6 @@
 # BubbleChart API Documentation
 
-Easy API tool to plot a bubble chart for a hierarchical dataset.
+An easy API tool to plot a bubble chart for hierarchical dataset.
 
 ## Usage
 
@@ -22,25 +22,31 @@ d3.json([dataset],function (error, root) { // Dataset should be hierarchical
 
 
 \# *BubbleChart*.**diameter**(number)
-> Sets the current value of diameter of the bubble chart where all the bubbles are.
-<br /><u>*Default: 800*</u>
+> Sets the value of diameter of the bubble chart where all the bubbles are.
+> If the number is not specified, return the current value.
+<br />**Default: `800`**
 
 
 \# *BubbleChart*.**padding**(number)
-> Sets the current value of padding between adjacent circles in pixels.
-<br /><u>*Default: 2*</u>
+> Sets the value of padding between adjacent circles in pixels.
+> If the number is not specified, return the current value.
+<br />**Default: `2`**
 
 
-\# *BubbleChart*.**color**(d3.scale.color_scale)
-> Sets the current value of color scale array.
-<br /><u>*Default: d3.scale.category20()*</u>
+\# *BubbleChart*.**color**(d3.scale.color_scale) 
+> Sets the value of color scale of the bubbles.
+> If the scale is not specified, return the current array.
+> The value must be a d3 color scale function.
+<br />**Default: `d3.scale.category20()`**
 
 
 \# *BubbleChart*.**height**(number)
 > Sets the current value of height of the svg where the bubble chart is consturcted.
-<br /><u>*Default: 800*</u>
+> If the number is not specified, return the current value.
+<br />**Default: `800`**
 
 
 \# *BubbleChart*.**width**(number)
 > Sets the current value of width of the svg where the bubble chart is consturcted.
-<br /><u>*Default: 800*</u>
+> If the number is not specified, return the current value.
+<br />**Default: `800`**
