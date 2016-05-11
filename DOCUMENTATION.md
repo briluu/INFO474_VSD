@@ -32,6 +32,10 @@ d3.json([dataset],function (error, root) { // Dataset should be hierarchical
 > If the number is not specified, return the current value.
 <br />**Default: `2`**
 
+\# *BubbleChart*.**format**([D3_format_types](https://github.com/mbostock/d3/wiki/Formatting#numbers))
+> Sets the format of the value shown when the mouse hovers over each circle.
+> If the number is not specified, return the current value.
+<br />**Default: `,d`**
 
 \# *BubbleChart*.**color**([D3_categorical_colors](https://github.com/mbostock/d3/wiki/Ordinal-Scales#categorical-colors)) 
 > Sets the value of color scale of the bubbles.
