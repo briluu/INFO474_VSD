@@ -12,7 +12,6 @@ d3.json([dataset],function (error, root) { // Dataset should be hierarchical
 	                .datum(root) 
 	                .call(myChart);
 })
-
 ```
 
 ## API Functions

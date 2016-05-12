@@ -1,3 +1,6 @@
+// BubbleChart.js application
+// 2016. 05. 11 Woosuk Seo
+
 var BubbleChart = function() {
 
 	// Assign default values for each variables.	
